@@ -1,4 +1,22 @@
 # Proyek UTS Backend Sistem Manajemen Inventory
+Nama : Bintang Widiatmaja
+Nim  : A11.2022.14314
+
+# Inventory Backend API
+
+Proyek backend API untuk manajemen inventory menggunakan Laravel dan MySQL/PostgreSQL, dengan containerisasi menggunakan Docker Compose.
+
+## Fitur
+- CRUD untuk Admin, Categories, Suppliers, dan Items
+- Relasi antar tabel dengan validasi foreign key menggunakan Eloquent ORM
+- Endpoint ringkasan stok barang (`/api/items/stock-summary`)
+- Endpoint barang dengan stok rendah (`/api/items/low-stock`)
+- Containerisasi aplikasi backend dan database menggunakan Docker Compose
+
+## Teknologi
+- PHP 8.1 dengan Laravel Framework
+- MySQL 8.0 sebagai database relasional (bisa juga PostgreSQL)
+- Docker & Docker Compose
 
 ## Alur Pengerjaan
 
@@ -23,4 +41,3 @@
 - `/database/seeders` - Seeder data awal
 - `/docker-compose.yml` - Konfigurasi Docker container backend dan DB
 - `/README.md` - Dokumentasi dan alur pengerjaan proyek
-
