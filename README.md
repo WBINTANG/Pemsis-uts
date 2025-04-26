@@ -109,6 +109,5 @@ Proyek backend API untuk manajemen inventory menggunakan Laravel dan MySQL/Postg
 - `/app/Models` - Model Laravel
 - `/app/Http/Controllers` - Controller API
 - `/database/migrations` - Migration database
-- `/database/seeders` - Seeder data awal
 - `/docker-compose.yml` - Konfigurasi Docker container backend dan DB
 - `/README.md` - Dokumentasi dan alur pengerjaan proyek
