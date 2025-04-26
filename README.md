@@ -1,6 +1,6 @@
 # Proyek UTS Backend Sistem Manajemen Inventory
 Nama : Bintang Widiatmaja
-Nim  : A11.2022.14314
+NIM  : A11.2022.14314
 
 # Inventory Backend API
 
