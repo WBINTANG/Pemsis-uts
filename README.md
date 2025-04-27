@@ -99,29 +99,31 @@ Proyek backend API untuk manajemen inventory menggunakan Laravel dan MySQL/Postg
 
 4. Membuat model Laravel dan mendefinisikan relasi antar tabel menggunakan Eloquent ORM.
 
-5. Membuat controller dan API routes untuk operasi CRUD data items, categories, suppliers, serta laporan stok dan ringkasan.
+5. Membuat controller dan API routes untuk operasi CRUD data items, categories, dan suppliers.
 
 6. Membuat seeder untuk data awal (admin, kategori, pemasok, dan barang).
 
 7. Membuat file docker-compose.yml untuk menjalankan container Laravel backend dan database secara bersamaan.
 
-8. Menyelesaikan 5 soal, yaitu:
+8. Menyelesaikan 5 soal UTS berikut:
 
-Soal 1: Menambahkan validasi input saat create dan update data.
+-Create + Read untuk data item (/api/items)
 
-Soal 2: Membuat endpoint untuk menampilkan summary stok barang (/api/items/stock-summary).
+-Create + Read untuk data kategori (/api/categories)
 
-Soal 3: Membuat endpoint untuk menampilkan daftar barang dengan stok di bawah minimal (/api/items/low-stock).
+-Create + Read untuk data supplier (/api/suppliers)
 
-Soal 4: Menambahkan fitur soft delete untuk data items.
+-Menampilkan ringkasan stok barang, termasuk stok total, total nilai stok (harga x jumlah), dan rata-rata harga barang (/api/items/stock-summary)
 
-Soal 5: Menambahkan fitur autentikasi sederhana untuk admin login.
+-Menampilkan daftar barang yang stoknya di bawah ambang batas tertentu (/api/items/low-stock)
 
 9. Melakukan testing semua endpoint API menggunakan Postman untuk memastikan semua fitur dan soal berfungsi dengan benar.
 
 10. Commit semua source code dan dokumentasi ke repository GitHub/GitLab.
 
 11. Mengirimkan link repository sebagai hasil akhir proyek UTS.
+
+
 
 ---
 
