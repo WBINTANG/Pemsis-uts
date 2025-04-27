@@ -91,16 +91,37 @@ Proyek backend API untuk manajemen inventory menggunakan Laravel dan MySQL/Postg
 
 ## Alur Pengerjaan
 
-1. Inisialisasi proyek Laravel baru menggunakan `composer create-project`.
-2. Konfigurasi `.env` untuk koneksi database MySQL/PostgreSQL.
-3. Membuat migration untuk tabel `admins`, `categories`, `suppliers`, dan `items` dengan relasi sesuai instruksi.
+1. Inisialisasi proyek Laravel baru menggunakan composer create-project.
+
+2. Konfigurasi .env untuk koneksi database MySQL/PostgreSQL.
+
+3. Membuat migration untuk tabel admins, categories, suppliers, dan items dengan relasi sesuai instruksi.
+
 4. Membuat model Laravel dan mendefinisikan relasi antar tabel menggunakan Eloquent ORM.
-5. Membuat controller dan API routes untuk operasi CRUD data `items`, `categories`, `suppliers`, serta laporan stok dan ringkasan.
+
+5. Membuat controller dan API routes untuk operasi CRUD data items, categories, suppliers, serta laporan stok dan ringkasan.
+
 6. Membuat seeder untuk data awal (admin, kategori, pemasok, dan barang).
-7. Membuat file `docker-compose.yml` untuk menjalankan container Laravel backend dan database secara bersamaan.
-8. Melakukan testing API menggunakan Postman untuk memastikan semua fitur berjalan dengan baik.
-9. Commit semua source code dan dokumentasi ke repository GitHub/GitLab.
-10. Mengirimkan link repository sebagai hasil akhir proyek UTS.
+
+7. Membuat file docker-compose.yml untuk menjalankan container Laravel backend dan database secara bersamaan.
+
+8. Menyelesaikan 5 soal, yaitu:
+
+Soal 1: Menambahkan validasi input saat create dan update data.
+
+Soal 2: Membuat endpoint untuk menampilkan summary stok barang (/api/items/stock-summary).
+
+Soal 3: Membuat endpoint untuk menampilkan daftar barang dengan stok di bawah minimal (/api/items/low-stock).
+
+Soal 4: Menambahkan fitur soft delete untuk data items.
+
+Soal 5: Menambahkan fitur autentikasi sederhana untuk admin login.
+
+9. Melakukan testing semua endpoint API menggunakan Postman untuk memastikan semua fitur dan soal berfungsi dengan benar.
+
+10. Commit semua source code dan dokumentasi ke repository GitHub/GitLab.
+
+11. Mengirimkan link repository sebagai hasil akhir proyek UTS.
 
 ---
 
