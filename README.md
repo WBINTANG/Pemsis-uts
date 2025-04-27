@@ -105,7 +105,7 @@ Proyek backend API untuk manajemen inventory menggunakan Laravel dan MySQL/Postg
 
 7. Membuat file docker-compose.yml untuk menjalankan container Laravel backend dan database secara bersamaan.
 
-8. Menyelesaikan 5 soal UTS berikut:
+8. Mengerjakan 5 soal :
 
 -Create + Read untuk data item (/api/items)
 
